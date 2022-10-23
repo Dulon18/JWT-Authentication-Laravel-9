@@ -8,7 +8,9 @@
 
 
 
+## OUTPUT
 <p align="center">
-
+<img width="900px" src="https://user-images.githubusercontent.com/80118217/197402410-9ba0854f-b90e-484e-87b0-3ac47a5564f8.JPG">
 </p>
+
 

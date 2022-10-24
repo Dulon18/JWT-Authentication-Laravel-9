@@ -5,6 +5,12 @@
 - composer require php-open-source-saver/jwt-auth
 - php artisan jwt:secret
 
+## Installation Instructions
+- Clone the repo.
+- Run 'composer install'
+- Run 'cp .env.example .env'
+- Run 'php artisan migrate'
+- Run 'php artisan serve'
 
 
 

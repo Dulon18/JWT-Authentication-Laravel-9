@@ -21,7 +21,10 @@ JSON Web Tokens contains three parts separated by dots (.) In its dense form.
 - Signature
 Eventually, a JWT similarly looks like this -> xxxxx.yyyyy.zzzzz
 
+## Laravel JWT authentication vs. Sanctum or Passport
+Choosing the type of authentication to use in your Laravel application is based on the type of application you’re building. Sanctum offers both session-based and token-based authentication and is good for single-page application (SPA) authentications. Passport uses JWT authentication as standard but also implements full OAuth 2.0 authorization.
 
+OAuth allows authorization from third-party applications like Google, GitHub, and Facebook, but not every app requires this feature. If you want to implement token-based authentication that follows the JWT standard, but without the OAuth extras, then Laravel JWT authentication is your best bet.
 
 ## Package
 

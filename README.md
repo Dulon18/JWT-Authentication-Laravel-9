@@ -9,6 +9,9 @@ JSON Web Token (JWT) is an open standard (RFC 7519), and it represents a compact
 
 JWT is used for Authorization and information exchange between server and client. It authenticates the incoming request and provides an additional security layer to REST API, which is best for security purposes.
 
+## How does JWT Work?
+
+User information such as username and password is sent to the web-server using HTTP GET and POST requests. The web server identifies the user information and generates a JWT token and sends it back to the client. Client store that token into the session and also set it to the header. On the next HTTP call, that token is verified by the server, which returns the response to the client.
 
 ## Package
 

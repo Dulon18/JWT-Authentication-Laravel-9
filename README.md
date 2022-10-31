@@ -19,6 +19,7 @@ JSON Web Tokens contains three parts separated by dots (.) In its dense form.
 - Header
 - Payload
 - Signature
+
 Eventually, a JWT similarly looks like this -> xxxxx.yyyyy.zzzzz
 
 ## Laravel JWT authentication vs. Sanctum or Passport

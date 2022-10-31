@@ -13,6 +13,16 @@ JWT is used for Authorization and information exchange between server and client
 
 User information such as username and password is sent to the web-server using HTTP GET and POST requests. The web server identifies the user information and generates a JWT token and sends it back to the client. Client store that token into the session and also set it to the header. On the next HTTP call, that token is verified by the server, which returns the response to the client.
 
+## JSON Web Token Structure
+JSON Web Tokens contains three parts separated by dots (.) In its dense form.
+
+- Header
+- Payload
+- Signature
+Eventually, a JWT similarly looks like this -> xxxxx.yyyyy.zzzzz
+
+
+
 ## Package
 
 - composer require php-open-source-saver/jwt-auth
